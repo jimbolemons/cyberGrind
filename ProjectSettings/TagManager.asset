@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Crate
+  - Powerup
+  - CameraWall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - CameraWall
+  - Player
+  - PostProcessing
+  - CameraChangePoint
+  - Camera
+  - Background
+  - CameraStopPoint
+  - FrontCameraWall
+  - Trail
+  - Boost
+  - Rail
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2530365461
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Rail
+    uniqueID: 3879710257
+    locked: 0
+  - name: OwO
+    uniqueID: 1418408185
+    locked: 0
+  - name: lil' Blu
+    uniqueID: 3520905445
+    locked: 0
+  - name: Harpie
+    uniqueID: 333348285
+    locked: 0
+  - name: Nathan
+    uniqueID: 3506975285
+    locked: 0
+  - name: Powerups
+    uniqueID: 3011068423
+    locked: 0
+  - name: CameraZones
+    uniqueID: 224791307
+    locked: 0
+  - name: WALL
+    uniqueID: 4219518955
+    locked: 0
+  - name: TutorialText
+    uniqueID: 599764573
+    locked: 0
+  - name: UI
+    uniqueID: 1956699169
+    locked: 0

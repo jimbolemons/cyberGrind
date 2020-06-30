@@ -1,0 +1,982 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0546e24b6dea2d244ae22f4483d27270, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c50896bc7653e84fac2a4153b33f0ccd
+    GuidInternal: 
+    m_lastTime: -8586213455578081506
+    List: []
+  - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
+    ParentPhysicalPath: 
+    guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    GuidInternal: 
+    m_lastTime: -8586213455577811259
+    List:
+    - name: Acoustic_Banner
+      guid: f2532d2fccda8e408b8898b1b52a26d6
+      id: 4168643977
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
+    - name: Anechoic
+      guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      id: 1873957695
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Anechoic
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
+    - name: Brick
+      guid: a9a586b004f2534ca838bdb18b18f6d6
+      id: 504532776
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Brick
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Brick
+    - name: Carpet
+      guid: 8975223456dc604296c4b9f4b669092b
+      id: 2412606308
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Carpet
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Carpet
+    - name: Concrete
+      guid: 001cf85c9628e04aaf7c3080bdaba682
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Concrete
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Concrete
+    - name: Cork_Tiles
+      guid: 19c9d2305f92434189063dbb3c4ae5e2
+      id: 3195498748
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
+    - name: Curtains
+      guid: 339ee6f8975c6849b508a1535f2d66e8
+      id: 2928161104
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Curtains
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Curtains
+    - name: Drywall
+      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      id: 3670307564
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Drywall
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Drywall
+    - name: Fabric
+      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      id: 1970351858
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Fabric
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Fabric
+    - name: Mountain
+      guid: 313793c51a00b44a98dd9b033a8c8eab
+      id: 513139656
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Mountain
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Mountain
+    - name: Tile
+      guid: c4da82a82a13b747ba9db9907ba29cc0
+      id: 2637588553
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Tile
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Tile
+    - name: Wood
+      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      id: 2058049674
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood
+    - name: Wood_Bright
+      guid: e5d1857ba2c1634e9a13cec54b641adc
+      id: 4262522749
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Bright
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
+    - name: Wood_Deep
+      guid: 8e474652dac50c4ea0dec98d1479529a
+      id: 1755085759
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Deep
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8923b277a489db4fa0f5cd71852ea809
+    GuidInternal: 
+    m_lastTime: -8586153852607976527
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: ffa8bb5c6eaee340ab8c9b6cb156410e
+    GuidInternal: 
+    m_lastTime: -8586153842310807704
+    List:
+    - name: Main
+      guid: a043fc9752607241b320a834a1bc5929
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2f1bf7f55aca09448c8092c6631ddc40
+    GuidInternal: 
+    m_lastTime: -8586153842310647557
+    List:
+    - name: Grind
+      guid: 7618d1a2c5f71e4ca843b7890d8670a5
+      id: 3794369557
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Grind
+        ObjectType: 3
+      Path: Default Work Unit\Gameplay\Grind
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Blast
+      guid: 8ade5fde4252a34c85fdc3c74abab003
+      id: 2619087524
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Play_Blast
+        ObjectType: 3
+      Path: Default Work Unit\Gameplay\Play_Blast
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_BoxBreak
+      guid: 99d3f959f84d114880321b36ecb0c081
+      id: 843996146
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Play_BoxBreak
+        ObjectType: 3
+      Path: Default Work Unit\Gameplay\Play_BoxBreak
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_EndMusic
+      guid: baed69284a6081468c450a548b544384
+      id: 4083341082
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Play_EndMusic
+        ObjectType: 3
+      Path: Default Work Unit\Music\Play_EndMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ForceCharge
+      guid: ab483374b93f494393976af6d8083f3b
+      id: 4233675267
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Play_ForceCharge
+        ObjectType: 3
+      Path: Default Work Unit\Gameplay\Play_ForceCharge
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MenuMusic
+      guid: 6da4531ac19f6048a5448c867bc8c035
+      id: 2570041344
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Play_MenuMusic
+        ObjectType: 3
+      Path: Default Work Unit\Music\Play_MenuMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music
+      guid: 67b276477ef04b41a35efadbb588d477
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Play_Music
+        ObjectType: 3
+      Path: Default Work Unit\Music\Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_NoBoost
+      guid: d54225f1ab31314080331461bc31c43b
+      id: 3887063940
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Play_NoBoost
+        ObjectType: 3
+      Path: Default Work Unit\Gameplay\Play_NoBoost
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Pickup
+      guid: 30760f9e6dcb284d9e52fb54a82d2dcf
+      id: 3860455926
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Play_Pickup
+        ObjectType: 3
+      Path: Default Work Unit\Gameplay\Play_Pickup
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TooManyBoxBreaks
+      guid: 0bd75ee0e50cc64ca9beb55caa541f1f
+      id: 3962714256
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Test
+        ObjectType: 4
+      - ElementName: Play_TooManyBoxBreaks
+        ObjectType: 3
+      Path: Default Work Unit\Test\Play_TooManyBoxBreaks
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_UIBack
+      guid: aefdb861593f974d8d1f1ae70278ad5e
+      id: 1224305705
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Play_UIBack
+        ObjectType: 3
+      Path: Default Work Unit\UI\Play_UIBack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_UIForward
+      guid: 4bd925b384408e4f8ecdddb75a01a2ef
+      id: 2324065199
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Play_UIForward
+        ObjectType: 3
+      Path: Default Work Unit\UI\Play_UIForward
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_UISwitch
+      guid: 1a0f91cafb21d64291af7e77d5e6feeb
+      id: 14283636
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Play_UISwitch
+        ObjectType: 3
+      Path: Default Work Unit\UI\Play_UISwitch
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_VoiceLine
+      guid: 12279e60574bf548b4c01eaa5803306e
+      id: 4280244374
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_VoiceLine
+        ObjectType: 3
+      Path: Default Work Unit\Play_VoiceLine
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_State_Anti
+      guid: 581878e50742604e824f2e39ce6e56b3
+      id: 3772179132
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: States
+        ObjectType: 4
+      - ElementName: Set_State_Anti
+        ObjectType: 3
+      Path: Default Work Unit\States\Set_State_Anti
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_State_Normal
+      guid: ee62577263958742bccf3769c63004ca
+      id: 2630068541
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: States
+        ObjectType: 4
+      - ElementName: Set_State_Normal
+        ObjectType: 3
+      Path: Default Work Unit\States\Set_State_Normal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_BoxHit
+      guid: beea6b7ffbb6e54c9f8a42ba82d1de8b
+      id: 3468289499
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Actions
+        ObjectType: 4
+      - ElementName: Set_Switch_BoxHit
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Actions\Set_Switch_BoxHit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_CharachterSelect
+      guid: 0d7650fc2ab4c649a2e53506c507e1f9
+      id: 3984112040
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Actions
+        ObjectType: 4
+      - ElementName: Set_Switch_CharachterSelect
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Actions\Set_Switch_CharachterSelect
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_GoingFast
+      guid: da8c6de3e7c6db4ca4c0fd04c9654c53
+      id: 2492029731
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Actions
+        ObjectType: 4
+      - ElementName: Set_Switch_GoingFast
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Actions\Set_Switch_GoingFast
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_GrindExit
+      guid: 14b9dc27255eea4e823879c1fe06b9d7
+      id: 1307720441
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Actions
+        ObjectType: 4
+      - ElementName: Set_Switch_GrindExit
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Actions\Set_Switch_GrindExit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_LilBlu
+      guid: 06c4b999427ac848ab02b3b74634a8b1
+      id: 1774551315
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Charachters
+        ObjectType: 4
+      - ElementName: Set_Switch_LilBlu
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Charachters\Set_Switch_LilBlu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_MechaHarpy
+      guid: 1e01cd28bf9ae9428cc3b330021005fd
+      id: 445128833
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Charachters
+        ObjectType: 4
+      - ElementName: Set_Switch_MechaHarpy
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Charachters\Set_Switch_MechaHarpy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_Nathan
+      guid: a4bf8ba8ae18734ea34d14e7eeb32c49
+      id: 1735442283
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Charachters
+        ObjectType: 4
+      - ElementName: Set_Switch_Nathan
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Charachters\Set_Switch_Nathan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_NoBoost
+      guid: 736f748849d88e4aa122233808ce8188
+      id: 3302803849
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Actions
+        ObjectType: 4
+      - ElementName: Set_Switch_NoBoost
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Actions\Set_Switch_NoBoost
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_OWObot
+      guid: e2b73b3c7d951141b497b6afb61fd627
+      id: 4257001729
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Charachters
+        ObjectType: 4
+      - ElementName: Set_Switch_OWObot
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Charachters\Set_Switch_OWObot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_Switch_RaceFinsh
+      guid: 57522c2b4189bf42b661ace4a07ef43a
+      id: 2813307004
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switches
+        ObjectType: 4
+      - ElementName: Actions
+        ObjectType: 4
+      - ElementName: Set_Switch_RaceFinsh
+        ObjectType: 3
+      Path: Default Work Unit\Switches\Actions\Set_Switch_RaceFinsh
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_All
+      guid: 1b51820e8f613b46a46723251aaa6e60
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_All
+        ObjectType: 3
+      Path: Default Work Unit\Stop_All
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Grind
+      guid: 447e0d633111974cb9a4caf2c0df22d0
+      id: 1849916594
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 4
+      - ElementName: Stop_Grind
+        ObjectType: 3
+      Path: Default Work Unit\Gameplay\Stop_Grind
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_MenuMusic
+      guid: 9a6e0bd138726d4d8dc75662a66d979d
+      id: 2753202630
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Stop_MenuMusic
+        ObjectType: 3
+      Path: Default Work Unit\Music\Stop_MenuMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Music
+      guid: da3276f21787b848ab28902a75676abb
+      id: 2837384057
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Stop_Music
+        ObjectType: 3
+      Path: Default Work Unit\Music\Stop_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c152b8296ad17f46b86a5634df2bce97
+    GuidInternal: 
+    m_lastTime: -8586156564763487392
+    List:
+    - name: Charge
+      guid: 33f95fe3bb08c44db49b73e09d68d600
+      id: 4285247397
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Charge
+        ObjectType: 13
+      Path: Default Work Unit\Charge
+    - name: ChargeBlast
+      guid: 1f6a4ca1cc4bf94296fb6aab088f2fb8
+      id: 1448492461
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ChargeBlast
+        ObjectType: 13
+      Path: Default Work Unit\ChargeBlast
+    - name: GrindVelocity
+      guid: 62c83aca78057a479bd2a02aa08af985
+      id: 450638040
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: GrindVelocity
+        ObjectType: 13
+      Path: Default Work Unit\GrindVelocity
+    - name: MasterVolume
+      guid: ea83fdfc603e9c49ac885f5df9cc4ef7
+      id: 2918011349
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MasterVolume
+        ObjectType: 13
+      Path: Default Work Unit\MasterVolume
+  - PhysicalPath: Game Parameters\Factory Motion.wwu
+    ParentPhysicalPath: 
+    guid: 225213d7dbd1d042adc0930743567776
+    GuidInternal: 
+    m_lastTime: -8586213455575774367
+    List:
+    - name: Playback_Rate
+      guid: e37e38283ac11643b9c3db5c521624af
+      id: 1524500807
+      PathAndIcons:
+      - ElementName: Factory Motion
+        ObjectType: 12
+      - ElementName: Playback_Rate
+        ObjectType: 13
+      Path: Factory Motion\Playback_Rate
+    - name: RPM
+      guid: 05aa129177f5fd449f4e4424158129e6
+      id: 796049864
+      PathAndIcons:
+      - ElementName: Factory Motion
+        ObjectType: 12
+      - ElementName: RPM
+        ObjectType: 13
+      Path: Factory Motion\RPM
+  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    ParentPhysicalPath: 
+    guid: 5577163b42fb8b4598bf96f557afb3b9
+    GuidInternal: 
+    m_lastTime: -8586213455577641106
+    List:
+    - name: SS_Air_Fear
+      guid: 59062ef746431c4ea1b1dab46a05101e
+      id: 1351367891
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+    - name: SS_Air_Freefall
+      guid: 37fe2d2f9e4f944d83d853cca39781ad
+      id: 3002758120
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+    - name: SS_Air_Fury
+      guid: dc79aea23acaba4696529986c322a87b
+      id: 1029930033
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+    - name: SS_Air_Month
+      guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      id: 2648548617
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+    - name: SS_Air_Presence
+      guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      id: 3847924954
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+    - name: SS_Air_RPM
+      guid: ab9048a3d5b92645a64d5290c43ef2dc
+      id: 822163944
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+    - name: SS_Air_Size
+      guid: efeb291393a12e47a38c64668b494879
+      id: 3074696722
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+    - name: SS_Air_Storm
+      guid: db8c3fe9d1063747acaf7cd44bbed783
+      id: 3715662592
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+    - name: SS_Air_TimeOfDay
+      guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      id: 3203397129
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+    - name: SS_Air_Turbulence
+      guid: 197ba8edaa73a0409f192073606db710
+      id: 4160247818
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e2c2952f64296c4f9e77ef4be760914d
+    GuidInternal: 
+    m_lastTime: -8586187775322217952
+    List:
+    - name: Gravity
+      guid: 8859e9dc04a3d942bbf7e3ab605e56e2
+      id: 2685955085
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gravity
+        ObjectType: 9
+      Path: Default Work Unit\Gravity
+      values:
+      - name: Anti
+        guid: 1716aeffb4f4ec49934bb03fa71ea20a
+        id: 3402891281
+        PathAndIcons:
+        - ElementName: Anti
+          ObjectType: 8
+      - name: None
+        guid: 321fc424158dce499b635a9fb69619c1
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Normal
+        guid: 893d7c3b3560804ea22bb2f98096c5d0
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: Normal
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 617a64fef1b77e49b296148fad0eb020
+    GuidInternal: 
+    m_lastTime: -8586154638263416451
+    List:
+    - name: Charachters
+      guid: 0208b339ba0a7e43a512c917fefa9ce4
+      id: 2207567111
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Charachters
+        ObjectType: 11
+      Path: Default Work Unit\Charachters
+      values:
+      - name: LilBlu
+        guid: fd24a5f1b1b8cc4d8553c54b61dd6c83
+        id: 4116699663
+        PathAndIcons:
+        - ElementName: LilBlu
+          ObjectType: 10
+      - name: MechaHarpy
+        guid: 57e0028ca63f0945ba82eaec12cacaea
+        id: 4062056893
+        PathAndIcons:
+        - ElementName: MechaHarpy
+          ObjectType: 10
+      - name: Nathan
+        guid: adcd234e224f124f8ab803c7e966c92c
+        id: 3790665999
+        PathAndIcons:
+        - ElementName: Nathan
+          ObjectType: 10
+      - name: OWObot
+        guid: dd4eb393f61c624aa62536654f7c3996
+        id: 43489173
+        PathAndIcons:
+        - ElementName: OWObot
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Gravity
+      guid: 4d0f506bb001c54e893f5d7734aa5c64
+      id: 2685955085
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gravity
+        ObjectType: 11
+      Path: Default Work Unit\Gravity
+      values:
+      - name: Anti
+        guid: 7b5f5a94872a4b47b0df504a926e7e7a
+        id: 3402891281
+        PathAndIcons:
+        - ElementName: Anti
+          ObjectType: 10
+      - name: Normal
+        guid: 3f09a6c220027345b4e6d01074cc5397
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: Normal
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: VoiceLine
+      guid: 232db9c64a425e4db2032ad95be270bd
+      id: 1002703731
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VoiceLine
+        ObjectType: 11
+      Path: Default Work Unit\VoiceLine
+      values:
+      - name: BoxHit
+        guid: b0ea0d00be2e8a4fbc19c3eddd476f81
+        id: 3378910583
+        PathAndIcons:
+        - ElementName: BoxHit
+          ObjectType: 10
+      - name: CharachterSelect
+        guid: c7e9718be8d17c40935d50e528d9c6f0
+        id: 2741960804
+        PathAndIcons:
+        - ElementName: CharachterSelect
+          ObjectType: 10
+      - name: GoingFast
+        guid: 64015e36a8992b488bc3ca4cd03947fe
+        id: 82990439
+        PathAndIcons:
+        - ElementName: GoingFast
+          ObjectType: 10
+      - name: GrindExit
+        guid: 5a87ed8324f0c440b9a097d6a18e2a3a
+        id: 308099221
+        PathAndIcons:
+        - ElementName: GrindExit
+          ObjectType: 10
+      - name: NoBoost
+        guid: 696265d64eb7cf4f89582e3c32e52318
+        id: 2102613829
+        PathAndIcons:
+        - ElementName: NoBoost
+          ObjectType: 10
+      - name: RaceFinsh
+        guid: f582cc1f0fa44946978ad42af9a14524
+        id: 2456286456
+        PathAndIcons:
+        - ElementName: RaceFinsh
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: ef7c8b1903e77f4986cbfe1295ac996b
+    GuidInternal: 
+    m_lastTime: -8586213455578161578
+    List: []
+  ExpandedItems:
+  - /MI498-SS20-Iron Galaxy_WwiseProject.wproj
+  - /MI498-SS20-Iron Galaxy_WwiseProject.wproj/Events
+  - /MI498-SS20-Iron Galaxy_WwiseProject.wproj/Events/Default Work Unit
+  - /MI498-SS20-Iron Galaxy_WwiseProject.wproj/Events/Default Work Unit/Switches
+  - /MI498-SS20-Iron Galaxy_WwiseProject.wproj/Events/Default Work Unit/Switches/Actions
+  - /MI498-SS20-Iron Galaxy_WwiseProject.wproj/Events/Default Work Unit/Switches/Charachters
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: Profile

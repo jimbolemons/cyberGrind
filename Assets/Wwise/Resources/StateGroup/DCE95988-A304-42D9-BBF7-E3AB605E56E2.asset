@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1341061ea816db14f808def95ce9a324, type: 3}
+  m_Name: DCE95988-A304-42D9-BBF7-E3AB605E56E2
+  m_EditorClassIdentifier: 
+  objectName: Gravity
+  id: 2685955085
+  guid: DCE95988-A304-42D9-BBF7-E3AB605E56E2

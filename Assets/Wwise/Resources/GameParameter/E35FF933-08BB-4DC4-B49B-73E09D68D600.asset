@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4cf531a2f29ff469a6de903e6092ab, type: 3}
+  m_Name: E35FF933-08BB-4DC4-B49B-73E09D68D600
+  m_EditorClassIdentifier: 
+  objectName: Charge
+  id: 4285247397
+  guid: E35FF933-08BB-4DC4-B49B-73E09D68D600

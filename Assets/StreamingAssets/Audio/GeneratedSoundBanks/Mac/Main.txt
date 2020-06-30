@@ -1,0 +1,115 @@
+Event	ID	Name			Wwise Object Path	Notes
+	14283636	Play_UISwitch			\Default Work Unit\UI\Play_UISwitch	
+	445128833	Set_Switch_MechaHarpy			\Default Work Unit\Switches\Charachters\Set_Switch_MechaHarpy	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	843996146	Play_BoxBreak			\Default Work Unit\Gameplay\Play_BoxBreak	
+	1224305705	Play_UIBack			\Default Work Unit\UI\Play_UIBack	
+	1265160817	Grind_01			\Default Work Unit\Gameplay\Grind_01	
+	1307720441	Set_Switch_GrindExit			\Default Work Unit\Switches\Actions\Set_Switch_GrindExit	
+	1735442283	Set_Switch_Nathan			\Default Work Unit\Switches\Charachters\Set_Switch_Nathan	
+	1774551315	Set_Switch_LilBlu			\Default Work Unit\Switches\Charachters\Set_Switch_LilBlu	
+	1849916594	Stop_Grind			\Default Work Unit\Gameplay\Stop_Grind	
+	2175797879	Play_Countdown			\Default Work Unit\Play_Countdown	
+	2324065199	Play_UIForward			\Default Work Unit\UI\Play_UIForward	
+	2492029731	Set_Switch_GoingFast			\Default Work Unit\Switches\Actions\Set_Switch_GoingFast	
+	2570041344	Play_MenuMusic			\Default Work Unit\Music\Play_MenuMusic	
+	2619087524	Play_Blast			\Default Work Unit\Gameplay\Play_Blast	
+	2630068541	Set_State_Normal			\Default Work Unit\States\Set_State_Normal	
+	2753202630	Stop_MenuMusic			\Default Work Unit\Music\Stop_MenuMusic	
+	2813307004	Set_Switch_RaceFinsh			\Default Work Unit\Switches\Actions\Set_Switch_RaceFinsh	
+	2837384057	Stop_Music			\Default Work Unit\Music\Stop_Music	
+	2932040671	Play_Music			\Default Work Unit\Music\Play_Music	
+	3302803849	Set_Switch_NoBoost			\Default Work Unit\Switches\Actions\Set_Switch_NoBoost	
+	3468289499	Set_Switch_BoxHit			\Default Work Unit\Switches\Actions\Set_Switch_BoxHit	
+	3772179132	Set_State_Anti			\Default Work Unit\States\Set_State_Anti	
+	3794369557	Grind			\Default Work Unit\Gameplay\Grind	
+	3860455926	Play_Pickup			\Default Work Unit\Gameplay\Play_Pickup	
+	3887063940	Play_NoBoost			\Default Work Unit\Gameplay\Play_NoBoost	
+	3984112040	Set_Switch_CharachterSelect			\Default Work Unit\Switches\Actions\Set_Switch_CharachterSelect	
+	4083341082	Play_EndMusic			\Default Work Unit\Music\Play_EndMusic	
+	4233675267	Play_ForceCharge			\Default Work Unit\Gameplay\Play_ForceCharge	
+	4257001729	Set_Switch_OWObot			\Default Work Unit\Switches\Charachters\Set_Switch_OWObot	
+	4280244374	Play_VoiceLine			\Default Work Unit\Play_VoiceLine	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1002703731	VoiceLine			\Default Work Unit\VoiceLine	
+	2207567111	Charachters			\Default Work Unit\Charachters	
+	2685955085	Gravity			\Default Work Unit\Gravity	
+
+Switch	ID	Name	Switch Group			Notes
+	82990439	GoingFast	VoiceLine			
+	308099221	GrindExit	VoiceLine			
+	2102613829	NoBoost	VoiceLine			
+	2456286456	RaceFinsh	VoiceLine			
+	2741960804	CharachterSelect	VoiceLine			
+	3378910583	BoxHit	VoiceLine			
+	43489173	OWObot	Charachters			
+	3790665999	Nathan	Charachters			
+	4062056893	MechaHarpy	Charachters			
+	4116699663	LilBlu	Charachters			
+	1160234136	Normal	Gravity			
+	3402891281	Anti	Gravity			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	450638040	GrindVelocity			\Default Work Unit\GrindVelocity	
+	1448492461	ChargeBlast			\Default Work Unit\ChargeBlast	
+
+Modulator Time	ID	Name			Wwise Object Path	Notes
+	55851047	Charge			\Default Work Unit\Charge	
+
+Effect plug-ins	ID	Name	Type				Notes
+	250789407	Wwise Gain (Custom)	Wwise Gain			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	99481457	Nathan CharachterSelect	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Nathan CharachterSelect_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\Nathan\CharachterSelect\Nathan CharachterSelect		15037
+	134635838	Nathan RaceFinish	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Nathan RaceFinish_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\Nathan\Nathan RaceFinish		27558
+	154191095	OWOBot RaceFinish	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\OWOBot RaceFinish_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\OWObot\OWOBot RaceFinish		30029
+	154986823	LilBlu BoxHit	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\LilBlu BoxHit_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\LilBlu\BoxHit\LilBlu BoxHit		22798
+	158473874	Nathan GoingFast	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Nathan GoingFast_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\Nathan\Nathan GoingFast		14177
+	189602767	LilBlu BoxHit2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\LilBlu BoxHit2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\LilBlu\BoxHit\LilBlu BoxHit2		18903
+	193026892	UISwitch	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\UISwitchNEW_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UISwitch		2724
+	197492414	LilBlu GrindExit	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\LilBlu GrindExit_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\LilBlu\GrindExit\LilBlu GrindExit		19344
+	227741922	Nathan BoxHit2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Nathan BoxHit2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\Nathan\BoxHit\Nathan BoxHit2		9138
+	239881165	LilBlu GoingFast	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\LilBlu GoingFast_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\LilBlu\LilBlu GoingFast		23918
+	315406531	LilBlu RaceFinish	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\LilBlu RaceFinish_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\LilBlu\LilBlu RaceFinish		18354
+	318813221	OWOBot BoxHit2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\OWOBot BoxHit2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\OWObot\BoxHit\OWOBot BoxHit2		30106
+	323699997	OWOBot CharachterSelected	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\OWOBot CharachterSelected_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\OWObot\CharachterSelected\OWOBot CharachterSelected		15911
+	356840681	Pickup	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Pickup2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickupSwitch\Pickup		4830
+	368681942	OWOBot NoBoost	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\OWOBot NoBoost_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\OWObot\NoBoost\OWOBot NoBoost		25379
+	408774510	Nathan GrindExit	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Nathan GrindExit_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\Nathan\GrindExit\Nathan GrindExit		19590
+	413116146	Harpy GrindExit	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Harpy GrindExit_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\MechaHarpy\GrindExit\Harpy GrindExit		22115
+	414262792	OWOBot GrindExit	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\OWOBot GrindExit_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\OWObot\OWOBot GrindExit		26624
+	451305504	Harpy RaceFinish	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Harpy RaceFinish_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\MechaHarpy\Harpy RaceFinish		12622
+	458052174	Harpy NoBoost	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Harpy NoBoost_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\MechaHarpy\NoBoost\Harpy NoBoost		21239
+	493146567	RaceFinishedSong	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\RaceFinishedSong_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\EndRace\RaceFinished\RaceFinishedSong		871916
+	497206054	Harpy GrindExit2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Harpy GrindExit2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\MechaHarpy\GrindExit\Harpy GrindExit2		12938
+	527903477	MenuMusic	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\MenuMusic_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenu\Menu\MenuMusic		287207
+	538042787	ForceCharge	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\ForceBlastCharge01_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForceSwitches\ForceChargeSwitch\ForceCharge		48312
+	558279870	CountDown	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\CountDown_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\CountDownContainer\CountDown		8670
+	602039041	Harpy BoxHit	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Harpy BoxHit_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\MechaHarpy\Harpy BoxHit		11587
+	621811139	OWOBot NoBoost2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\OWOBot NoBoost2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\OWObot\NoBoost\OWOBot NoBoost2		14644
+	632505282	NoBoost	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\NoBoost_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\NoBoostSwitch\NoBoost		5150
+	661475784	LilBlu NoBoost	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\LilBlu NoBoost_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\LilBlu\LilBlu NoBoost		21489
+	666568795	Nathan BoxHit	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Nathan BoxHit_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\Nathan\BoxHit\Nathan BoxHit		16458
+	678922337	LilBlu CharachterSelected-1	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\LilBlu CharachterSelected-1_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\LilBlu\CharachterSelected\LilBlu CharachterSelected-1		7449
+	679504982	Nathan NoBoost	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Nathan NoBoost_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\Nathan\Nathan NoBoost		6548
+	762971619	CountDownStart	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\CountDownStart_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\CountDownContainer\CountDownStart		11820
+	763165178	UIForward	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\UIForward_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UIForward		14653
+	764149455	OWOBot GoingFast	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\OWOBot GoingFast_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\OWObot\OWOBot GoingFast		20112
+	794747854	UIBack	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\UIBack_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UIBack		12580
+	803452271	LilBlu GrindExit2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\LilBlu GrindExit2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\LilBlu\GrindExit\LilBlu GrindExit2		20026
+	848514112	Nathan GrindExit2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Nathan GrindExit2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\Nathan\GrindExit\Nathan GrindExit2		13075
+	858372310	Nathan CharachterSelect2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Nathan CharachterSelect2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\Nathan\CharachterSelect\Nathan CharachterSelect2		16042
+	858398481	Harpy CharachterSelected2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Harpy CharachterSelected2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\MechaHarpy\CharachterSelect\Harpy CharachterSelected2		22642
+	862295515	OWOBot CharachterSelected2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\OWOBot CharachterSelected2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\OWObot\CharachterSelected\OWOBot CharachterSelected2		16075
+	899863181	GrindStart	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\GrindStart_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrindSwitches\GrindStartSwitch\GrindStart		4377
+	900931979	Crybergrind Overdrive	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Crybergrind Overdrive_9B96ECC7.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\InGameOne\Crybergrind Overdrive		4862957
+	908744446	LilBlu CharachterSelected	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\LilBlu CharachterSelected_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\LilBlu\CharachterSelected\LilBlu CharachterSelected		22006
+	920711203	Harpy NoBoost2	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Harpy NoBoost2_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\MechaHarpy\NoBoost\Harpy NoBoost2		14431
+	925830051	Grind	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\GrindLoop_9B96ECC7.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrindSwitches\GrindSwitch\Grind		34709
+	928135673	BoxBreak	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\BoxBreak_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoxSwitch\BoxBreak		10280
+	971439478	Harpy GoingFast	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Harpy GoingFast_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\MechaHarpy\Harpy GoingFast		21019
+	977649065	ForceBlast	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\ForceBlast01_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ForceSwitches\ForceBlastSwitch\ForceBlast		23482
+	1034926333	OWOBot BoxHit	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\OWOBot BoxHit_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\OWObot\BoxHit\OWOBot BoxHit		24314
+	1057759260	Harpy CharachterSelected	D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\SFX\Harpy CharachterSelected_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Charachters\MechaHarpy\CharachterSelect\Harpy CharachterSelected		17317
+

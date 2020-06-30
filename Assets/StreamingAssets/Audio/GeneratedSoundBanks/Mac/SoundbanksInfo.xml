@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\</ProjectRoot>
+		<SourceFilesRoot>D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\UnityProjects\MI498-SS20-Iron Galaxy\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Wwise\Speedbros\MI498-SS20-Iron Galaxy_WwiseProject.wproj\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3794369557" Name="Grind" ObjectPath="\Events\Default Work Unit\Gameplay\Grind" DurationType="Infinite"/>
+				<Event Id="1265160817" Name="Grind_01" ObjectPath="\Events\Default Work Unit\Gameplay\Grind_01" DurationType="Infinite"/>
+				<Event Id="2619087524" Name="Play_Blast" ObjectPath="\Events\Default Work Unit\Gameplay\Play_Blast" DurationType="OneShot" DurationMin="1.777781" DurationMax="2.663662"/>
+				<Event Id="843996146" Name="Play_BoxBreak" ObjectPath="\Events\Default Work Unit\Gameplay\Play_BoxBreak" DurationType="OneShot" DurationMin="0.694448" DurationMax="1.040496"/>
+				<Event Id="2175797879" Name="Play_Countdown" ObjectPath="\Events\Default Work Unit\Play_Countdown" DurationType="OneShot" DurationMin="0.888896" DurationMax="0.888896"/>
+				<Event Id="4083341082" Name="Play_EndMusic" ObjectPath="\Events\Default Work Unit\Music\Play_EndMusic" DurationType="Infinite"/>
+				<Event Id="4233675267" Name="Play_ForceCharge" ObjectPath="\Events\Default Work Unit\Gameplay\Play_ForceCharge" DurationType="OneShot" DurationMin="8.000000" DurationMax="11.986457"/>
+				<Event Id="2570041344" Name="Play_MenuMusic" ObjectPath="\Events\Default Work Unit\Music\Play_MenuMusic" DurationType="Infinite"/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Music\Play_Music" DurationType="Infinite"/>
+				<Event Id="3887063940" Name="Play_NoBoost" ObjectPath="\Events\Default Work Unit\Gameplay\Play_NoBoost" DurationType="OneShot" DurationMin="0.444448" DurationMax="0.665919"/>
+				<Event Id="3860455926" Name="Play_Pickup" ObjectPath="\Events\Default Work Unit\Gameplay\Play_Pickup" DurationType="OneShot" DurationMin="0.277781" DurationMax="0.416202"/>
+				<Event Id="1224305705" Name="Play_UIBack" ObjectPath="\Events\Default Work Unit\UI\Play_UIBack" DurationType="OneShot" DurationMin="0.888896" DurationMax="0.888896"/>
+				<Event Id="2324065199" Name="Play_UIForward" ObjectPath="\Events\Default Work Unit\UI\Play_UIForward" DurationType="OneShot" DurationMin="1.111115" DurationMax="1.111115"/>
+				<Event Id="14283636" Name="Play_UISwitch" ObjectPath="\Events\Default Work Unit\UI\Play_UISwitch" DurationType="OneShot" DurationMin="0.222229" DurationMax="0.222229"/>
+				<Event Id="4280244374" Name="Play_VoiceLine" ObjectPath="\Events\Default Work Unit\Play_VoiceLine" DurationType="OneShot" DurationMin="1.250000" DurationMax="2.500000"/>
+				<Event Id="3772179132" Name="Set_State_Anti" ObjectPath="\Events\Default Work Unit\States\Set_State_Anti" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2630068541" Name="Set_State_Normal" ObjectPath="\Events\Default Work Unit\States\Set_State_Normal" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3468289499" Name="Set_Switch_BoxHit" ObjectPath="\Events\Default Work Unit\Switches\Actions\Set_Switch_BoxHit" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3984112040" Name="Set_Switch_CharachterSelect" ObjectPath="\Events\Default Work Unit\Switches\Actions\Set_Switch_CharachterSelect" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2492029731" Name="Set_Switch_GoingFast" ObjectPath="\Events\Default Work Unit\Switches\Actions\Set_Switch_GoingFast" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1307720441" Name="Set_Switch_GrindExit" ObjectPath="\Events\Default Work Unit\Switches\Actions\Set_Switch_GrindExit" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1774551315" Name="Set_Switch_LilBlu" ObjectPath="\Events\Default Work Unit\Switches\Charachters\Set_Switch_LilBlu" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="445128833" Name="Set_Switch_MechaHarpy" ObjectPath="\Events\Default Work Unit\Switches\Charachters\Set_Switch_MechaHarpy" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1735442283" Name="Set_Switch_Nathan" ObjectPath="\Events\Default Work Unit\Switches\Charachters\Set_Switch_Nathan" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3302803849" Name="Set_Switch_NoBoost" ObjectPath="\Events\Default Work Unit\Switches\Actions\Set_Switch_NoBoost" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4257001729" Name="Set_Switch_OWObot" ObjectPath="\Events\Default Work Unit\Switches\Charachters\Set_Switch_OWObot" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2813307004" Name="Set_Switch_RaceFinsh" ObjectPath="\Events\Default Work Unit\Switches\Actions\Set_Switch_RaceFinsh" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1849916594" Name="Stop_Grind" ObjectPath="\Events\Default Work Unit\Gameplay\Stop_Grind" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2753202630" Name="Stop_MenuMusic" ObjectPath="\Events\Default Work Unit\Music\Stop_MenuMusic" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Music\Stop_Music" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="99481457" Language="SFX">
+					<ShortName>Nathan CharachterSelect.wav</ShortName>
+					<Path>SFX\Nathan CharachterSelect_6296B0F9.wem</Path>
+				</File>
+				<File Id="134635838" Language="SFX">
+					<ShortName>Nathan RaceFinish.wav</ShortName>
+					<Path>SFX\Nathan RaceFinish_6296B0F9.wem</Path>
+				</File>
+				<File Id="154191095" Language="SFX">
+					<ShortName>OWOBot RaceFinish.wav</ShortName>
+					<Path>SFX\OWOBot RaceFinish_6296B0F9.wem</Path>
+				</File>
+				<File Id="154986823" Language="SFX">
+					<ShortName>LilBlu BoxHit.wav</ShortName>
+					<Path>SFX\LilBlu BoxHit_6296B0F9.wem</Path>
+				</File>
+				<File Id="158473874" Language="SFX">
+					<ShortName>Nathan GoingFast.wav</ShortName>
+					<Path>SFX\Nathan GoingFast_6296B0F9.wem</Path>
+				</File>
+				<File Id="189602767" Language="SFX">
+					<ShortName>LilBlu BoxHit2.wav</ShortName>
+					<Path>SFX\LilBlu BoxHit2_6296B0F9.wem</Path>
+				</File>
+				<File Id="193026892" Language="SFX">
+					<ShortName>UISwitchNEW.wav</ShortName>
+					<Path>SFX\UISwitchNEW_6296B0F9.wem</Path>
+				</File>
+				<File Id="197492414" Language="SFX">
+					<ShortName>LilBlu GrindExit.wav</ShortName>
+					<Path>SFX\LilBlu GrindExit_6296B0F9.wem</Path>
+				</File>
+				<File Id="227741922" Language="SFX">
+					<ShortName>Nathan BoxHit2.wav</ShortName>
+					<Path>SFX\Nathan BoxHit2_6296B0F9.wem</Path>
+				</File>
+				<File Id="239881165" Language="SFX">
+					<ShortName>LilBlu GoingFast.wav</ShortName>
+					<Path>SFX\LilBlu GoingFast_6296B0F9.wem</Path>
+				</File>
+				<File Id="315406531" Language="SFX">
+					<ShortName>LilBlu RaceFinish.wav</ShortName>
+					<Path>SFX\LilBlu RaceFinish_6296B0F9.wem</Path>
+				</File>
+				<File Id="318813221" Language="SFX">
+					<ShortName>OWOBot BoxHit2.wav</ShortName>
+					<Path>SFX\OWOBot BoxHit2_6296B0F9.wem</Path>
+				</File>
+				<File Id="323699997" Language="SFX">
+					<ShortName>OWOBot CharachterSelected.wav</ShortName>
+					<Path>SFX\OWOBot CharachterSelected_6296B0F9.wem</Path>
+				</File>
+				<File Id="356840681" Language="SFX">
+					<ShortName>Pickup2.wav</ShortName>
+					<Path>SFX\Pickup2_6296B0F9.wem</Path>
+				</File>
+				<File Id="368681942" Language="SFX">
+					<ShortName>OWOBot NoBoost.wav</ShortName>
+					<Path>SFX\OWOBot NoBoost_6296B0F9.wem</Path>
+				</File>
+				<File Id="408774510" Language="SFX">
+					<ShortName>Nathan GrindExit.wav</ShortName>
+					<Path>SFX\Nathan GrindExit_6296B0F9.wem</Path>
+				</File>
+				<File Id="413116146" Language="SFX">
+					<ShortName>Harpy GrindExit.wav</ShortName>
+					<Path>SFX\Harpy GrindExit_6296B0F9.wem</Path>
+				</File>
+				<File Id="414262792" Language="SFX">
+					<ShortName>OWOBot GrindExit.wav</ShortName>
+					<Path>SFX\OWOBot GrindExit_6296B0F9.wem</Path>
+				</File>
+				<File Id="451305504" Language="SFX">
+					<ShortName>Harpy RaceFinish.wav</ShortName>
+					<Path>SFX\Harpy RaceFinish_6296B0F9.wem</Path>
+				</File>
+				<File Id="458052174" Language="SFX">
+					<ShortName>Harpy NoBoost.wav</ShortName>
+					<Path>SFX\Harpy NoBoost_6296B0F9.wem</Path>
+				</File>
+				<File Id="493146567" Language="SFX">
+					<ShortName>RaceFinishedSong.wav</ShortName>
+					<Path>SFX\RaceFinishedSong_9B96ECC7.wem</Path>
+				</File>
+				<File Id="497206054" Language="SFX">
+					<ShortName>Harpy GrindExit2.wav</ShortName>
+					<Path>SFX\Harpy GrindExit2_6296B0F9.wem</Path>
+				</File>
+				<File Id="527903477" Language="SFX">
+					<ShortName>MenuMusic.wav</ShortName>
+					<Path>SFX\MenuMusic_9B96ECC7.wem</Path>
+				</File>
+				<File Id="538042787" Language="SFX">
+					<ShortName>ForceBlastCharge01.wav</ShortName>
+					<Path>SFX\ForceBlastCharge01_6296B0F9.wem</Path>
+				</File>
+				<File Id="558279870" Language="SFX">
+					<ShortName>CountDown.wav</ShortName>
+					<Path>SFX\CountDown_6296B0F9.wem</Path>
+				</File>
+				<File Id="602039041" Language="SFX">
+					<ShortName>Harpy BoxHit.wav</ShortName>
+					<Path>SFX\Harpy BoxHit_6296B0F9.wem</Path>
+				</File>
+				<File Id="621811139" Language="SFX">
+					<ShortName>OWOBot NoBoost2.wav</ShortName>
+					<Path>SFX\OWOBot NoBoost2_6296B0F9.wem</Path>
+				</File>
+				<File Id="632505282" Language="SFX">
+					<ShortName>NoBoost.wav</ShortName>
+					<Path>SFX\NoBoost_6296B0F9.wem</Path>
+				</File>
+				<File Id="661475784" Language="SFX">
+					<ShortName>LilBlu NoBoost.wav</ShortName>
+					<Path>SFX\LilBlu NoBoost_6296B0F9.wem</Path>
+				</File>
+				<File Id="666568795" Language="SFX">
+					<ShortName>Nathan BoxHit.wav</ShortName>
+					<Path>SFX\Nathan BoxHit_6296B0F9.wem</Path>
+				</File>
+				<File Id="678922337" Language="SFX">
+					<ShortName>LilBlu CharachterSelected-1.wav</ShortName>
+					<Path>SFX\LilBlu CharachterSelected-1_6296B0F9.wem</Path>
+				</File>
+				<File Id="679504982" Language="SFX">
+					<ShortName>Nathan NoBoost.wav</ShortName>
+					<Path>SFX\Nathan NoBoost_6296B0F9.wem</Path>
+				</File>
+				<File Id="762971619" Language="SFX">
+					<ShortName>CountDownStart.wav</ShortName>
+					<Path>SFX\CountDownStart_6296B0F9.wem</Path>
+				</File>
+				<File Id="763165178" Language="SFX">
+					<ShortName>UIForward.wav</ShortName>
+					<Path>SFX\UIForward_6296B0F9.wem</Path>
+				</File>
+				<File Id="764149455" Language="SFX">
+					<ShortName>OWOBot GoingFast.wav</ShortName>
+					<Path>SFX\OWOBot GoingFast_6296B0F9.wem</Path>
+				</File>
+				<File Id="794747854" Language="SFX">
+					<ShortName>UIBack.wav</ShortName>
+					<Path>SFX\UIBack_6296B0F9.wem</Path>
+				</File>
+				<File Id="803452271" Language="SFX">
+					<ShortName>LilBlu GrindExit2.wav</ShortName>
+					<Path>SFX\LilBlu GrindExit2_6296B0F9.wem</Path>
+				</File>
+				<File Id="848514112" Language="SFX">
+					<ShortName>Nathan GrindExit2.wav</ShortName>
+					<Path>SFX\Nathan GrindExit2_6296B0F9.wem</Path>
+				</File>
+				<File Id="858372310" Language="SFX">
+					<ShortName>Nathan CharachterSelect2.wav</ShortName>
+					<Path>SFX\Nathan CharachterSelect2_6296B0F9.wem</Path>
+				</File>
+				<File Id="858398481" Language="SFX">
+					<ShortName>Harpy CharachterSelected2.wav</ShortName>
+					<Path>SFX\Harpy CharachterSelected2_6296B0F9.wem</Path>
+				</File>
+				<File Id="862295515" Language="SFX">
+					<ShortName>OWOBot CharachterSelected2.wav</ShortName>
+					<Path>SFX\OWOBot CharachterSelected2_6296B0F9.wem</Path>
+				</File>
+				<File Id="899863181" Language="SFX">
+					<ShortName>GrindStart.wav</ShortName>
+					<Path>SFX\GrindStart_6296B0F9.wem</Path>
+				</File>
+				<File Id="900931979" Language="SFX">
+					<ShortName>Crybergrind Overdrive.wav</ShortName>
+					<Path>SFX\Crybergrind Overdrive_9B96ECC7.wem</Path>
+				</File>
+				<File Id="908744446" Language="SFX">
+					<ShortName>LilBlu CharachterSelected.wav</ShortName>
+					<Path>SFX\LilBlu CharachterSelected_6296B0F9.wem</Path>
+				</File>
+				<File Id="920711203" Language="SFX">
+					<ShortName>Harpy NoBoost2.wav</ShortName>
+					<Path>SFX\Harpy NoBoost2_6296B0F9.wem</Path>
+				</File>
+				<File Id="925830051" Language="SFX">
+					<ShortName>GrindLoop.wav</ShortName>
+					<Path>SFX\GrindLoop_9B96ECC7.wem</Path>
+				</File>
+				<File Id="928135673" Language="SFX">
+					<ShortName>BoxBreak.wav</ShortName>
+					<Path>SFX\BoxBreak_6296B0F9.wem</Path>
+				</File>
+				<File Id="971439478" Language="SFX">
+					<ShortName>Harpy GoingFast.wav</ShortName>
+					<Path>SFX\Harpy GoingFast_6296B0F9.wem</Path>
+				</File>
+				<File Id="977649065" Language="SFX">
+					<ShortName>ForceBlast01.wav</ShortName>
+					<Path>SFX\ForceBlast01_6296B0F9.wem</Path>
+				</File>
+				<File Id="1034926333" Language="SFX">
+					<ShortName>OWOBot BoxHit.wav</ShortName>
+					<Path>SFX\OWOBot BoxHit_6296B0F9.wem</Path>
+				</File>
+				<File Id="1057759260" Language="SFX">
+					<ShortName>Harpy CharachterSelected.wav</ShortName>
+					<Path>SFX\Harpy CharachterSelected_6296B0F9.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
