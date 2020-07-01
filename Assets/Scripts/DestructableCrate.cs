@@ -36,7 +36,14 @@ public class DestructableCrate : MonoBehaviour
             controller.animHandler.playerState = PlayerAnimatorHandler.PlayerState.Slowed;
 
             if (destroyVFX)
+            {
                 destroyVFX.Play();
+                Destroy(this.gameObject, 2f);
+
+            }
+
+
         }
+        
     }
 }
