@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8838432683487572250}
   - component: {fileID: 8838432683487572244}
   - component: {fileID: 8053025854726455880}
+  - component: {fileID: 1655450107656380285}
   m_Layer: 0
   m_Name: Crate (6)
   m_TagString: Crate
@@ -50,7 +51,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -129,3 +130,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.03, y: 1.94}
   m_EdgeRadius: 0
+--- !u!114 &1655450107656380285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8838432683487572246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71a060bb27494241bd7f3a95cbe221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyVFX: {fileID: 0}
+  slowForce: {x: 0, y: 0}
+  boxBreakEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
