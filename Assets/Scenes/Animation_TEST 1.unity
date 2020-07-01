@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -5707,6 +5707,16 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 7278866091536809554, guid: 6bde0b661f088e64a8882250f86b241a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278866091536809554, guid: 6bde0b661f088e64a8882250f86b241a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 8789162237698357746, guid: 6bde0b661f088e64a8882250f86b241a,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -7287,8 +7297,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a620eb362baf644dbaddc0fc912a7d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreBoardUIText: {fileID: 0}
-  playButton: {fileID: 0}
+  scoreUIs: []
+  icons: []
+  placeSlots: []
+  endGameCanvas: {fileID: 0}
+  gameUICanvas: {fileID: 0}
+  confetti: []
+  placementPositions: []
+  platformSprites: []
+  goalLight: {fileID: 0}
+  stopSounds:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  endGameMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &751359076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20721,13 +20746,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minVelocityCap: 20
   maxVelocityCap: 50
-  gameState: 0
   mainCameraFollow: {fileID: 0}
   leadPlayer: {fileID: 0}
   leadXPos: 0
   playerUIs: []
   testingPlayers: []
+  NathanSprite: {fileID: 0}
+  OwOBotSprite: {fileID: 0}
+  MechaHarpySprite: {fileID: 0}
+  LilBluSprite: {fileID: 0}
   spawnLocationsObject: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  defaultButton: {fileID: 0}
   stopMenuMusicEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -20740,6 +20770,13 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  countdownEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  LevelVFX: {fileID: 0}
+  countdownTime: 0
+  countdownText: {fileID: 0}
 --- !u!1 &1987214337
 GameObject:
   m_ObjectHideFlags: 0
@@ -32296,7 +32333,9 @@ MonoBehaviour:
   grindDownForce: 1
   attackVFX: {fileID: 398287627884428001}
   badChargeVFX: {fileID: 0}
-  grindVFX: {fileID: 7562584012062044973}
+  grindVFX:
+  - {fileID: 0}
+  badGrindVFX: {fileID: 0}
   chargeSoundEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -32337,6 +32376,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  noBoostSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   playerName: Green
   aimingLine: {fileID: 50306834113545674}
   isGrinding: 0
@@ -32346,14 +32389,50 @@ MonoBehaviour:
   onChargeRelease:
     m_PersistentCalls:
       m_Calls: []
+  onBlast:
+    m_PersistentCalls:
+      m_Calls: []
   onGrindStart:
     m_PersistentCalls:
       m_Calls: []
   onGrindEnd:
     m_PersistentCalls:
       m_Calls: []
+  onGoodGrindStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onGoodGrindEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  onJumpToRail:
+    m_PersistentCalls:
+      m_Calls: []
+  onOverheatedBlast:
+    m_PersistentCalls:
+      m_Calls: []
+  onSlowed:
+    m_PersistentCalls:
+      m_Calls: []
+  onWin:
+    m_PersistentCalls:
+      m_Calls: []
+  onBadGrindStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onBadGrindEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  onCountdownStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onCountdownEnd:
+    m_PersistentCalls:
+      m_Calls: []
   isOnRail: 0
+  isSlowed: 0
   playerUI: {fileID: 0}
+  chargeBarMaterial: {fileID: 0}
+  chargeBar: {fileID: 0}
 --- !u!1 &3421812670097027931
 GameObject:
   m_ObjectHideFlags: 0
