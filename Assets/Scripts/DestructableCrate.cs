@@ -12,6 +12,7 @@ public class DestructableCrate : MonoBehaviour
 
     private BoxCollider2D collider;
     private SpriteRenderer renderer;
+    public GameObject light;
 
     private void Start()
     {
@@ -19,24 +20,41 @@ public class DestructableCrate : MonoBehaviour
         renderer = GetComponent<SpriteRenderer>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag(Constants.playerTag))
-        {
-            BSPlayerController controller = collision.gameObject.GetComponent<BSPlayerController>();
-            if (controller.isSlowed) { return; }
-            StartCoroutine(controller.SlowTimer());
+                
 
-            collision.GetComponent<Rigidbody2D>().AddForce(slowForce);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF");
+            //collision.CompareTag(Constants.playerTag) || 
+            BSPlayerController controller = collision.gameObject.GetComponent<BSPlayerController>();
+            //if (controller.isSlowed) { return; }
+            //StartCoroutine(controller.SlowTimer());
+
+            //collision.GetComponent<Rigidbody2D>().AddForce(slowForce);
+            collision.rigidbody.AddForce(slowForce);
             collider.enabled = false;
             renderer.enabled = false;
+            if (light != null)
+            {
+             Destroy(light);
+
+            }
 
             //Wwise trigger
             boxBreakEvent.Post(gameObject);
-            controller.animHandler.playerState = PlayerAnimatorHandler.PlayerState.Slowed;
+            //controller.animHandler.playerState = PlayerAnimatorHandler.PlayerState.Slowed;
 
             if (destroyVFX)
+            {
                 destroyVFX.Play();
+                Destroy(this.gameObject,1f);
+
+            }
+
+
         }
+        
     }
 }
