@@ -284,7 +284,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7624837952051669654}
   serializedVersion: 6
-  lengthInSec: 0.2
+  lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -850,7 +850,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4179,7 +4179,7 @@ ParticleSystem:
         m_RotationOrder: 4
     maxLights: 20
   TrailModule:
-    enabled: 1
+    enabled: 0
     mode: 0
     ratio: 1
     lifetime:
@@ -5504,7 +5504,7 @@ PrefabInstance:
     - target: {fileID: 5564073310604795159, guid: 9157ac7d39cd94d26bc2fb5461f963bc,
         type: 3}
       propertyPath: CollisionModule.enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5564073310604795159, guid: 9157ac7d39cd94d26bc2fb5461f963bc,
         type: 3}
@@ -5520,6 +5520,21 @@ PrefabInstance:
         type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564073310604795159, guid: 9157ac7d39cd94d26bc2fb5461f963bc,
+        type: 3}
+      propertyPath: ShapeModule.type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564073310604795159, guid: 9157ac7d39cd94d26bc2fb5461f963bc,
+        type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564073310604795159, guid: 9157ac7d39cd94d26bc2fb5461f963bc,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5564073310604966543, guid: 9157ac7d39cd94d26bc2fb5461f963bc,
         type: 3}
