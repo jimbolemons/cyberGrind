@@ -13,11 +13,16 @@ public class DestructableCrate : MonoBehaviour
     private BoxCollider2D collider;
     private SpriteRenderer renderer;
     public GameObject light;
+     
+    private Camera mainCamera;
+    
+    public bool playRipple;
 
     private void Start()
     {
         collider = GetComponent<BoxCollider2D>();
         renderer = GetComponent<SpriteRenderer>();
+        mainCamera = Camera.main;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -26,7 +31,11 @@ public class DestructableCrate : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF");
+
+            if (playRipple)
+            {
+          mainCamera.GetComponent<RippleController>().RipVanWinkle(this.transform.position);
+            }
             //collision.CompareTag(Constants.playerTag) || 
             BSPlayerController controller = collision.gameObject.GetComponent<BSPlayerController>();
             //if (controller.isSlowed) { return; }
@@ -36,6 +45,7 @@ public class DestructableCrate : MonoBehaviour
             collision.rigidbody.AddForce(slowForce);
             collider.enabled = false;
             renderer.enabled = false;
+
             if (light != null)
             {
              Destroy(light);

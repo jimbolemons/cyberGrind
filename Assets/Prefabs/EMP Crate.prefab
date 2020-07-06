@@ -419,6 +419,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 5a5e49baff45afa408107fb7cd4f85e0,
       type: 2}
   light: {fileID: 3677730336102789221}
+  playRipple: 1
 --- !u!61 &1740337723374600545
 BoxCollider2D:
   m_ObjectHideFlags: 0
