@@ -18,6 +18,8 @@ public class DestructableCrate : MonoBehaviour
     
     public bool playRipple;
 
+    public float stun;
+
     private void Start()
     {
         collider = GetComponent<BoxCollider2D>();
@@ -26,15 +28,13 @@ public class DestructableCrate : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {
-                
+    {     
 
         if (collision.gameObject.CompareTag("Player"))
         {
-
             if (playRipple)
             {
-          mainCamera.GetComponent<RippleController>().RipVanWinkle(this.transform.position);
+             mainCamera.GetComponent<RippleController>().RipVanWinkle(this.transform.position);
             }
             //collision.CompareTag(Constants.playerTag) || 
             BSPlayerController controller = collision.gameObject.GetComponent<BSPlayerController>();
@@ -51,7 +51,8 @@ public class DestructableCrate : MonoBehaviour
              Destroy(light);
 
             }
-
+            controller.Stuntimer = stun;
+            controller.HitBox = true;
             //Wwise trigger
             boxBreakEvent.Post(gameObject);
             //controller.animHandler.playerState = PlayerAnimatorHandler.PlayerState.Slowed;
