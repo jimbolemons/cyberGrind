@@ -60,12 +60,17 @@ public class BSPlayerController : PartyPlayerController
     [SerializeField] private AK.Wwise.Event antiGravityState;
     [SerializeField] private AK.Wwise.Event noBoostSoundEvent;
 
+    
+
 
 
     [Header("Other")]
     public string playerName = "x";
     [SerializeField] public GameObject aimingLine;
     public bool isGrinding;
+
+    public bool HitBox;
+    public float Stuntimer;
 
     [Header("Events")]
     public UnityEvent onChargeStart;
@@ -83,6 +88,8 @@ public class BSPlayerController : PartyPlayerController
     public UnityEvent onBadGrindEnd;
     public UnityEvent onCountdownStart;
     public UnityEvent onCountdownEnd;
+
+
     
     [HideInInspector] public PlayerAnimatorHandler animHandler;
     [HideInInspector] public bool isOnRail = false;
@@ -217,6 +224,10 @@ public class BSPlayerController : PartyPlayerController
 
         VelocityCap();
         PassiveBoost();
+        if (HitBox)
+        {
+            Invoke("HitBoxTimer",Stuntimer);
+        }
     }
 
     protected override void FixedUpdate()
@@ -547,11 +558,20 @@ public class BSPlayerController : PartyPlayerController
     /// </summary>
     private IEnumerator Charge()
     {
+        //CHARGE        
         if (blastAmount < blastCost)
         {
             OnOverHeatedBlast();
             yield break;
         }
+        if (HitBox)
+        {
+            OnOverHeatedBlast();
+            //player cannot boost
+            Invoke("HitBoxTimer",Stuntimer);
+             yield break;
+        }
+
 
         onChargeStart.Invoke();
         isCharging = true;
@@ -586,6 +606,12 @@ public class BSPlayerController : PartyPlayerController
         chargeRoutine = null;
 
         yield return null;
+    }
+    private void HitBoxTimer()
+    {
+        HitBox = false;
+
+
     }
 
     private void OnOverHeatedBlast()
