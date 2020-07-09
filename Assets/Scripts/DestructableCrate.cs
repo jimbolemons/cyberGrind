@@ -19,12 +19,23 @@ public class DestructableCrate : MonoBehaviour
     public bool playRipple;
 
     public float stun;
+    public ParticleSystem emit1;
+    
+    
 
     private void Start()
     {
         collider = GetComponent<BoxCollider2D>();
         renderer = GetComponent<SpriteRenderer>();
         mainCamera = Camera.main;
+    }
+    void DetachParticles()
+    {
+        // This splits the particle off so it doesn't get deleted with the parent
+        emit1.transform.parent = null;
+       
+        // this stops the particle from creating more bits
+        //emit2.Stop();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -60,6 +71,9 @@ public class DestructableCrate : MonoBehaviour
             if (destroyVFX)
             {
                 destroyVFX.Play();
+                emit1.GetComponent<DestoyAfterTime>().TimeDestroy();
+                DetachParticles();
+
                 Destroy(this.gameObject,1f);
 
             }
