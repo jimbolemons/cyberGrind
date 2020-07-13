@@ -489,6 +489,7 @@ public class BSPlayerController : PartyPlayerController
     /// </summary>
     private void ExplosiveForce()
     {
+        Debug.Log("BIG FUCK");
         //PlayBlastSound Wwise
         chargeBlastRTPC.SetValue(gameObject, currentCharge);
         chargeBlastSoundEvent.Post(gameObject);
@@ -539,6 +540,11 @@ public class BSPlayerController : PartyPlayerController
                     scaledAimVector = scaledAimVector == Vector2.zero ? -explosivePower : scaledAimVector;
                     total = scaledAimVector/* + (rigidBody.gravityScale * Physics2D.gravity)*/;
                     total *= -1;
+                }
+                Debug.Log(total);
+                if(Mathf.Abs(total.x) <= 10f && Mathf.Abs(total.y) <= 10f )
+                {
+                    total = new Vector2(72,0);
                 }
                 rb.AddForce(total, ForceMode2D.Impulse);
             }
