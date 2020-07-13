@@ -325,8 +325,8 @@ public class BSPlayerController : PartyPlayerController
         {
             aimingLine.SetActive(true);
 
-            if (moveVector.x > 0)
-                moveVector.x = 0;
+           // if (moveVector.x > 0)
+           //     moveVector.x = 0;
 
             float theta = Mathf.Atan2(moveVector.y, moveVector.x) * Mathf.Rad2Deg;
             if (theta == 0)
@@ -546,7 +546,7 @@ public class BSPlayerController : PartyPlayerController
                 {
                     total = new Vector2(72,0);
                 }
-                rb.AddForce(total, ForceMode2D.Impulse);
+                rb.AddForce(-total, ForceMode2D.Impulse);
             }
         }
 
