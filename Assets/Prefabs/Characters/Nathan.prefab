@@ -136,6 +136,8 @@ MonoBehaviour:
   playerName: Nathan
   aimingLine: {fileID: 4010392153559840878}
   isGrinding: 0
+  HitBox: 0
+  Stuntimer: 0
   onChargeStart:
     m_PersistentCalls:
       m_Calls: []
@@ -323,7 +325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759156862323658495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.74, y: 0, z: 0}
+  m_LocalPosition: {x: 12.37, y: 0, z: 0}
   m_LocalScale: {x: 3.2029352, y: 2.3552532, z: 1.744632}
   m_Children: []
   m_Father: {fileID: 2147506259035794771}
@@ -369,7 +371,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3b03c7417b3763548b0dc2a39bd24a97, type: 3}
   m_Color: {r: 0.93725497, g: 0.6039216, b: 0.0627451, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -1839,7 +1841,7 @@ PrefabInstance:
     - target: {fileID: 4178855309754533445, guid: 63bed7bb6739a43b09353295b9274bbb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4178855309754533445, guid: 63bed7bb6739a43b09353295b9274bbb,
         type: 3}

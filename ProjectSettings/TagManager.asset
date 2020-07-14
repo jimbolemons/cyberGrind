@@ -48,6 +48,9 @@ TagManager:
   - name: backgroundFiller
     uniqueID: 2934651735
     locked: 0
+  - name: BlackEnviorment
+    uniqueID: 1036822681
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
