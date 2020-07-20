@@ -163,6 +163,10 @@ public class BSPlayerController : PartyPlayerController
     {
         upgradeCount++;
     }
+      public void SubtractUpgrade(int poop)
+    {
+        upgradeCount -= poop;
+    }
 
     public void AddUpgrade(int amount)
     {
@@ -228,6 +232,7 @@ public class BSPlayerController : PartyPlayerController
         {
             Invoke("HitBoxTimer",Stuntimer);
         }
+        Debug.Log(upgradeCount);
     }
 
     protected override void FixedUpdate()

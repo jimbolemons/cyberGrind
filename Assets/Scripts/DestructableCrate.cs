@@ -20,6 +20,8 @@ public class DestructableCrate : MonoBehaviour
 
     public float stun;
     public ParticleSystem emit1;
+   
+    public int pointToSubtract = 3;
     
     
 
@@ -43,12 +45,20 @@ public class DestructableCrate : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
+                    
+            //collision.CompareTag(Constants.playerTag) || 
+            BSPlayerController controller = collision.gameObject.GetComponent<BSPlayerController>();
+            
             if (playRipple)
             {
              mainCamera.GetComponent<RippleController>().RipVanWinkle(this.transform.position);
+             controller.SubtractUpgrade(pointToSubtract);
             }
-            //collision.CompareTag(Constants.playerTag) || 
-            BSPlayerController controller = collision.gameObject.GetComponent<BSPlayerController>();
+            else
+            {
+             controller.AddUpgrade();
+
+            }    
             //if (controller.isSlowed) { return; }
             //StartCoroutine(controller.SlowTimer());
 
