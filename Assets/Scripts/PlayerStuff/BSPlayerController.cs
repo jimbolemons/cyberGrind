@@ -544,7 +544,7 @@ public class BSPlayerController : PartyPlayerController
                 Debug.Log(total);
                 if(Mathf.Abs(total.x) <= 10f && Mathf.Abs(total.y) <= 10f )
                 {
-                    total = new Vector2(72,0);
+                    total = new Vector2(-72,0);
                 }
                 rb.AddForce(-total, ForceMode2D.Impulse);
             }
