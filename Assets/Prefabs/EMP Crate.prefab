@@ -699,6 +699,7 @@ MonoBehaviour:
   playRipple: 1
   stun: 2
   emit1: {fileID: 7492771587717245560}
+  pointToSubtract: 3
 --- !u!61 &1740337723374600545
 BoxCollider2D:
   m_ObjectHideFlags: 0
