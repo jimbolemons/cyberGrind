@@ -5314,7 +5314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyVFX: {fileID: 8108417537154804414}
-  slowForce: {x: -50, y: 0}
+  slowForce: {x: -15, y: 0}
   boxBreakEvent:
     idInternal: 0
     valueGuidInternal: 
