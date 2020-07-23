@@ -22,6 +22,7 @@ public class DestructableCrate : MonoBehaviour
     public ParticleSystem emit1;
    
     public int pointToSubtract = 3;
+    public int pointToAdd = 3;
     
     
 
@@ -56,7 +57,7 @@ public class DestructableCrate : MonoBehaviour
             }
             else
             {
-             controller.AddUpgrade();
+             controller.SubtractUpgrade(-pointToAdd);
 
             }    
             //if (controller.isSlowed) { return; }
