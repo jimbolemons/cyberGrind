@@ -60,6 +60,8 @@ public class BSPlayerController : PartyPlayerController
     [SerializeField] private AK.Wwise.Event antiGravityState;
     [SerializeField] private AK.Wwise.Event noBoostSoundEvent;
 
+    float pointTimer = 0;
+
     
 
 
@@ -293,6 +295,14 @@ public class BSPlayerController : PartyPlayerController
                 rigidBody.velocity = new Vector2(rigidBody.velocity.x, 0);
 
             rigidBody.velocity -= new Vector2(0, grindDownForce * Time.deltaTime);
+
+             pointTimer += Time.deltaTime;
+            if (pointTimer >= .5f)
+            {
+                SubtractUpgrade(-1);
+                pointTimer = 0;
+                
+            }
         }
 
         if (isGrinding && grounded)
