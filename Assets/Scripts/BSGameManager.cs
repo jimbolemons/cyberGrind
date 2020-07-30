@@ -25,6 +25,8 @@ public class BSGameManager : Singleton<BSGameManager>
     // Things for tracking first player
     public GameObject leadPlayer = null;
     public float leadXPos = 0f;
+    public GameObject lastPlayer = null;
+    public float lastXPos = 100000000f;
 
     [SerializeField] private GameObject[] playerUIs;
 
@@ -158,12 +160,19 @@ public class BSGameManager : Singleton<BSGameManager>
     {
         while (instance.GameState_ != GameState.Overview)
         {
+            lastXPos = 100000000f;
             foreach (Transform trans in playerTransforms)
             {
                 if (trans.position.x > leadXPos)
                 {
                     leadXPos = trans.position.x;
                     leadPlayer = trans.gameObject;
+                }
+
+                 if (trans.position.x < lastXPos)
+                {
+                    lastXPos = trans.position.x;
+                    lastPlayer = trans.gameObject;
                 }
             }
 

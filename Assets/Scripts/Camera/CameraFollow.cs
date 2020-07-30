@@ -24,6 +24,9 @@ public class CameraFollow : MonoBehaviour
     private Transform[] walls;
 
     private string leadName = "";
+    private string lastName = "";
+    float lastPerson =0;
+    float firstPerson = 0;
 
     private void Start()
     {
@@ -73,14 +76,18 @@ public class CameraFollow : MonoBehaviour
         {
             moveSpeed = moveSpeedOriginal;
         }
-        
+        desiredXCameraPosition = (lastPerson + firstPerson)/2;
 
         float diff = desiredXCameraPosition - mainCamera.position.x;
+
+        //mainCamera.transform.position = new Vector3(0, desiredXCameraPosition, 0);
 
         if (Mathf.Abs(diff) > .01f)
         {
             mainCamera.Translate(new Vector3(diff, 0, 0) * Time.deltaTime * moveSpeed);
+           
         }
+        
     }
 
 
@@ -107,7 +114,7 @@ public class CameraFollow : MonoBehaviour
         while (gameManager.GameState_ != BSGameManager.GameState.Overview)
         {
             GameObject newLead = gameManager.leadPlayer; // Player that is now in lead 
-
+            GameObject newLast = gameManager.lastPlayer;
 
             // New stuff for attempted smoothness
             if (newLead != null)
@@ -121,7 +128,21 @@ public class CameraFollow : MonoBehaviour
                 // Reset name 
                 leadName = newLead.name;
             }
+            if (newLast != null)
+            {
+                if (lastName != newLast.name)
+                { // Someone else has taken the lead 
 
+                   // moveSpeed = moveSpeedOriginal / 10; // Change speed?
+                    // cameraDiffToOffset = cameraDiffToOffsetOriginal / 4; // Change offset?
+                }
+
+                // Reset name 
+                lastName = newLast.name;
+                Debug.Log(lastName);
+            }
+            firstPerson = newLead.transform.position.x;
+             lastPerson = newLast.transform.position.x;
 
             float leadXPos = gameManager.leadXPos;
             if (leadXPos > mainCamera.position.x + cameraDiffToOffset)
@@ -160,8 +181,8 @@ public class CameraFollow : MonoBehaviour
             while (camera.orthographicSize < desiredSize && transform.position.y != desiredYPos)
             {
                 // Scale and move camera
-                camera.orthographicSize += cameraScaleSpeed * Time.deltaTime;
-                transform.Translate(new Vector3(0,(desiredYPos - transform.position.y),0) * Time.deltaTime * moveSpeed);
+                camera.orthographicSize += cameraScaleSpeed * Time.deltaTime ;
+                //transform.Translate(new Vector3(0,(desiredYPos - transform.position.y),0) * Time.deltaTime * moveSpeed);
 
                 // Move Walls
                 Vector3 worldPoint = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, transform.position.z));
@@ -177,8 +198,8 @@ public class CameraFollow : MonoBehaviour
             while (camera.orthographicSize > desiredSize && transform.position.y != desiredYPos)
             {
                 // Scale and move camera
-                camera.orthographicSize -= cameraScaleSpeed * Time.deltaTime;
-                transform.Translate(new Vector3(0, (desiredYPos - transform.position.y), 0) * Time.deltaTime * moveSpeed);
+                camera.orthographicSize -= cameraScaleSpeed * Time.deltaTime ;
+               // transform.Translate(new Vector3(0, (desiredYPos - transform.position.y), 0) * Time.deltaTime * moveSpeed);
 
                 // Move Walls
                 Vector3 worldPoint = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, transform.position.z));
