@@ -5314,7 +5314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyVFX: {fileID: 8108417537154804414}
-  slowForce: {x: -15, y: 0}
+  slowForce: {x: 0, y: 0}
   boxBreakEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -11387,8 +11387,8 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 3.1415925
-      minScalar: -0.7853981
+      scalar: 9.424778
+      minScalar: -9.424778
       maxCurve:
         serializedVersion: 2
         m_Curve:
