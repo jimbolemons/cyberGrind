@@ -16,6 +16,7 @@ public class CameraFollow : MonoBehaviour
     private float moveSpeedOriginal;
     
     private float desiredXCameraPosition = 0f, desiredYCameraPosition = 0f;
+     private float scaless = 0f;
     private Transform mainCamera;
     private Camera camera;
     private float cameraDiffToOffset = 0f;
@@ -25,8 +26,10 @@ public class CameraFollow : MonoBehaviour
 
     private string leadName = "";
     private string lastName = "";
-    float lastPerson =0;
-    float firstPerson = 0;
+    float lastPerson = 0f;
+    float firstPerson = 0f;
+    float lastPerson2 = 0f;
+    float firstPerson2 = 0f;
 
     private void Start()
     {
@@ -77,14 +80,27 @@ public class CameraFollow : MonoBehaviour
             moveSpeed = moveSpeedOriginal;
         }
         desiredXCameraPosition = (lastPerson + firstPerson)/2;
+        desiredYCameraPosition = (lastPerson2 + firstPerson2)/2;
+        scaless = firstPerson-lastPerson;
+        if(scaless <= 30)
+        {
+                scaless= 30;
+        }
+        else if (scaless >=50)
+        {
+         scaless= 50;
+        }
 
+        
+        StartMoveAndScale(scaless,1);
         float diff = desiredXCameraPosition - mainCamera.position.x;
+         float diff2 = (desiredYCameraPosition - mainCamera.position.y) +10;
 
-        //mainCamera.transform.position = new Vector3(0, desiredXCameraPosition, 0);
+       // mainCamera.transform.position = new Vector3(desiredXCameraPosition,0, 0);
 
         if (Mathf.Abs(diff) > .01f)
         {
-            mainCamera.Translate(new Vector3(diff, 0, 0) * Time.deltaTime * moveSpeed);
+            mainCamera.Translate(new Vector3(diff, diff2, 0) * Time.deltaTime * moveSpeed);
            
         }
         
@@ -122,27 +138,31 @@ public class CameraFollow : MonoBehaviour
                 if (leadName != newLead.name)
                 { // Someone else has taken the lead 
                     moveSpeed = moveSpeedOriginal / 10; // Change speed?
-                    // cameraDiffToOffset = cameraDiffToOffsetOriginal / 4; // Change offset?
+                     cameraDiffToOffset = cameraDiffToOffsetOriginal / 4; // Change offset?
                 }
 
                 // Reset name 
                 leadName = newLead.name;
+                firstPerson = newLead.transform.position.x;
+                firstPerson2 = newLead.transform.position.y;
             }
             if (newLast != null)
             {
                 if (lastName != newLast.name)
                 { // Someone else has taken the lead 
 
-                   // moveSpeed = moveSpeedOriginal / 10; // Change speed?
-                    // cameraDiffToOffset = cameraDiffToOffsetOriginal / 4; // Change offset?
+                    moveSpeed = moveSpeedOriginal / 10; // Change speed?
+                     cameraDiffToOffset = cameraDiffToOffsetOriginal / 4; // Change offset?
                 }
 
                 // Reset name 
                 lastName = newLast.name;
                 Debug.Log(lastName);
+                lastPerson = newLast.transform.position.x;
+                 lastPerson2 = newLast.transform.position.y;
             }
-            firstPerson = newLead.transform.position.x;
-             lastPerson = newLast.transform.position.x;
+            
+            
 
             float leadXPos = gameManager.leadXPos;
             if (leadXPos > mainCamera.position.x + cameraDiffToOffset)
@@ -178,11 +198,12 @@ public class CameraFollow : MonoBehaviour
 
         if (desiredSize > camera.orthographicSize)
         {
-            while (camera.orthographicSize < desiredSize && transform.position.y != desiredYPos)
+            //&& transform.position.y != desiredYPos
+            while (camera.orthographicSize < desiredSize )
             {
                 // Scale and move camera
                 camera.orthographicSize += cameraScaleSpeed * Time.deltaTime ;
-                //transform.Translate(new Vector3(0,(desiredYPos - transform.position.y),0) * Time.deltaTime * moveSpeed);
+               // transform.Translate(new Vector3(0,(desiredYPos - transform.position.y),0) * Time.deltaTime * moveSpeed);
 
                 // Move Walls
                 Vector3 worldPoint = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, transform.position.z));
@@ -195,11 +216,12 @@ public class CameraFollow : MonoBehaviour
             }
         } else
         {
-            while (camera.orthographicSize > desiredSize && transform.position.y != desiredYPos)
+            //&& transform.position.y != desiredYPos
+            while (camera.orthographicSize > desiredSize )
             {
                 // Scale and move camera
                 camera.orthographicSize -= cameraScaleSpeed * Time.deltaTime ;
-               // transform.Translate(new Vector3(0, (desiredYPos - transform.position.y), 0) * Time.deltaTime * moveSpeed);
+                //transform.Translate(new Vector3(0, (desiredYPos - transform.position.y), 0) * Time.deltaTime * moveSpeed);
 
                 // Move Walls
                 Vector3 worldPoint = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, transform.position.z));

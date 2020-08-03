@@ -9,7 +9,7 @@ public class CameraChangeZone : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(Constants.cameraWallTag))
         {
-            BSGameManager.instance.mainCameraFollow.StartMoveAndScale(transform.localScale.y / 2, transform.position.y);
+           // BSGameManager.instance.mainCameraFollow.StartMoveAndScale(transform.localScale.y / 2, transform.position.y);
         }
     }
 }
